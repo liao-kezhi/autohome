@@ -3,7 +3,7 @@ import sys, os
 reload(sys)
 sys.setdefaultencoding('utf-8')
 sys.path.append(".")#加入默认的扫描路径
-
+#我修改后
 import atexit
 import logging
 from core.functions import writePID, deletePID, Usage, stop, init_log
